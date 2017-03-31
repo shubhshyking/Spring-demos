@@ -1,0 +1,56 @@
+Steps:
+
+1. Creat maven project without archtype
+2. verfiy all maven plugins are downloaded and there are no error 
+3. Edit pom.xml
+Add <dependencies>   </dependencies>
+Add below entries and your pom.xml should look like below: 
+	
+	<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.gd</groupId>
+	<artifactId>has-a-relationship-with-spring</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<properties>
+		<springframework.version>4.3.7.RELEASE</springframework.version>
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
+4. Create Requries Model classess with Dependencies to be 
+injected using spring framework
+5. Remove old JRE and add your jdk under Build Path->Installed JRE to 1.7+ version of JDK
+6. Create <anyName>.xml file under src/main/resources folder
+applicationContext.xml
+7. Add required bean and also perform dependencies mapping which will be used by Spring
+8. Create ApplicatioContext object and use getBean method to retrieve beans
+created by spring.
+9. Run the application to see desired out put.
+10. You can reshuffle dependencies with different combinations of objects
+to understad power of Spring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

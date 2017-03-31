@@ -1,0 +1,29 @@
+-------------------------------------------------
+Home Page:
+http://projects.spring.io/spring-framework/
+-------------------------------------------------
+Bugs and Change Log
+https://jira.spring.io/browse/SPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel
+-------------------------------------------------
+Latest Version:
+4.3.7
+-------------------------------------------------
+Minimum requirements:
+JDK 6+ for Spring Framework 4.x
+JDK 5+ for Spring Framework 3.x
+-------------------------------------------------
+Reference Material:
+http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/overview.html#overview-modules
+-------------------------------------------------
+API Doc:
+http://docs.spring.io/spring/docs/current/javadoc-api/
+-------------------------------------------------
+Repository Maintain by Spring which has all versions till the latest most:
+https://repo.spring.io/libs-snapshot/org/springframework/spring-core/
+-------------------------------------------------
+For Eclipse Maven Dependencies:
+https://mvnrepository.com/artifact/org.springframework/spring-core/4.3.7.RELEASE
+-------------------------------------------------
+Git Repo For Cloning of Code:
+https://github.com/spring-projects/spring-framework
+-------------------------------------------------
